@@ -1,0 +1,35 @@
+# 忽略所有 bat 脚本
+*.bat
+
+# ========================
+# Python 目录忽略项
+# ========================
+python/ASR/
+python/bert-chinese-sentiment/
+python/shibing624_text2vec-base-chinese/
+python/memory_db/
+python/music/
+python/sing/
+
+# Python 缓存、虚拟环境
+python/__pycache__/
+python/*.py[cod]
+python/runtime/
+
+# ========================
+# Unity 目录忽略项
+# ========================
+# 先忽略整个 unity 文件夹
+unity/*
+# 重新允许必要路径
+!unity/Kanna/
+unity/Kanna/*
+!unity/Kanna/Assets/
+unity/Kanna/Assets/*
+!unity/Kanna/Assets/Scripts/
+
+# ========================
+# 全局敏感文件
+# ========================
+config.json
+!config.json.example
